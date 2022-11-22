@@ -15,7 +15,7 @@ class LatestRelease extends Component {
                     src={book.img}
                     alt={book.title}
                   />
-                  <Carousel.Caption>
+                  <Carousel.Caption className="bg-dark">
                     <h3>{book.title}</h3>
                     <p>{book.price}</p>
                   </Carousel.Caption>
