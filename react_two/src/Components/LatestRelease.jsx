@@ -9,7 +9,7 @@ class LatestRelease extends Component {
           <Col xs={12} md={6} className="text-center">
             <Carousel interval={99999}>
               {books.map((book) => (
-                <Carousel.Item key={book.id}>
+                <Carousel.Item key={book.asin}>
                   <img
                     className="d-block w-100"
                     src={book.img}

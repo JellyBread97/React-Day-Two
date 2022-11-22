@@ -1,7 +1,7 @@
 import { Nav } from "react-bootstrap";
 
 const CustomFooter = () => (
-  <footer className="bg-dark fixed-bottom">
+  <footer className="bg-dark">
     <Nav className="justify-content-center" activeKey="/home">
       <Nav.Item>
         <Nav.Link href="#">Home</Nav.Link>
